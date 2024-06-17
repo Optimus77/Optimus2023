@@ -19,6 +19,7 @@ public class OptimusMain {
     @RequestMapping("/")
     String hello() {
         String name = "hanyang";
+        String name2 = "0617";
         return "Hello Spring Boot!";
     }
 
